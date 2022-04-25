@@ -117,6 +117,7 @@ debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true 
 debug.sf.predict_hwc_composition_strategy=0
+debug.sf.treat_170m_as_sRGB=1
 ro.config.avoid_gfx_accel=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
