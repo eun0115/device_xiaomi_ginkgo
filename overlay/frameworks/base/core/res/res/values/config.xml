@@ -838,4 +838,7 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>me.waveproject.keyhandler.KeyHandler</item>
     </string-array>
+
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
 </resources>
