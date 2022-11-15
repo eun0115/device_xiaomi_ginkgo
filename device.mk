@@ -104,6 +104,45 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.camera.preview.ubwc=0 \
+    persist.vendor.camera.isp.clock.optmz=0 \
+    persist.vendor.camera.isp.turbo=1 \
+    persist.vendor.camera.imglib.usefdlite=1 \
+    persist.vendor.camera.expose.aux=1 \
+    persist.vendor.camera.HAL3.enabled=1 \
+    persist.vendor.camera.mpo.disabled=1 \
+    persist.vendor.camera.manufacturer=Xiaomi \
+    persist.vendor.camera.stats.test=0 \
+    persist.vendor.camera.awb.sync=2 \
+    persist.vendor.camera.af.sync=2 \
+    persist.vendor.camera.eis.enable=1 \
+    persist.vendor.camera.is_type=4 \
+    persist.vendor.camera.is_type_preview=4 \
+    persist.vendor.camera.gyro.disable=0 \
+    persist.vendor.camera.llnoise=1 \
+    persist.vendor.camera.tnr.preview=1 \
+    persist.vendor.camera.swtnr.preview=1 \
+    persist.vendor.camera.tnr.video=1 \
+    persist.vendor.camera.aec.sync=1 \
+    persist.vendor.camera.instant.aec=1 \
+    persist.vendor.camera.ae.instant.bound=20 \
+    persist.vendor.camera.depurple=1 \
+    persist.vendor.denoise.process.plates=2 \
+    persist.vendor.dualcam.lpm.enable=0 \
+    persist.vendor.tnr.process.plates=2 \
+    persist.vendor.camera.perflock.enable=0 \
+    vendor.camera.cpp.set.clock=576 \
+    vendor.camera.not.cts.apk=1 \
+    vendor.camera.not.ctsverify.apk=1 \
+    vendor.camera.vidhance.eis.enabled=1 \
+    vendor.camera.vidhanceEis.force=1 \
+    vendor.vidhance.video.enabled=1
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
