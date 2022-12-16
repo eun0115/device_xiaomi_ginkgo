@@ -841,4 +841,8 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>me.waveproject.keyhandler.KeyHandler</item>
     </string-array>
+
+     <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">xiaomi/ginkgo/ginkgo:11/RKQ1.201004.002/V12.5.2.0.RCOMIXM:user/release-keys</string>
+
 </resources>
