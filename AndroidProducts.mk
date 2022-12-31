@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ginkgo.mk
+    $(LOCAL_DIR)/statix_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ginkgo-user \
-    lineage_ginkgo-userdebug \
-    lineage_ginkgo-eng
+    statix_ginkgo-user \
+    statix_ginkgo-userdebug \
+    statix_ginkgo-eng

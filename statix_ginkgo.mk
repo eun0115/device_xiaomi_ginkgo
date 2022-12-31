@@ -23,11 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common StatiX stuff.
+$(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_ginkgo
+PRODUCT_NAME := statix_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
