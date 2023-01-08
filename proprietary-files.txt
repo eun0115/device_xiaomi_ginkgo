@@ -163,7 +163,7 @@ vendor/lib/libc++_shared.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libdng_sdkvendor.so
 vendor/lib/libfastcvdsp_stub.so
-vendor/lib/libfastcvopt.so
+-vendor/lib/libfastcvopt.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libft2vendor.so
 vendor/lib/libhal_dbg.so
@@ -193,7 +193,7 @@ vendor/lib/libxiaomiAI_sensor.so
 vendor/lib/mibokeh_660_opencl.bin
 vendor/lib/miwatermark.so
 vendor/lib64/libfastcvdsp_stub.so
-vendor/lib64/libfastcvopt.so
+-vendor/lib64/libfastcvopt.so
 vendor/lib64/libseemore.so
 vendor/lib64/libswvdec.so
 
@@ -2534,9 +2534,9 @@ vendor/lib64/libtime_genoff.so|72cbb6847c67602904cf435d3878045a186c7ef5
 
 # Thermal
 vendor/bin/thermal-engine
-vendor/lib/libthermalclient.so
+-vendor/lib/libthermalclient.so
 vendor/lib/libthermalfeature.so
-vendor/lib64/libthermalclient.so
+-vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 
 # TUI (Trusted User Interface) - from LA.UM.9.11.r1-04500-NICOBAR.0
