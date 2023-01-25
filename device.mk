@@ -239,6 +239,13 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# ih8sn
+PRODUCT_PACKAGES += \
+    ih8sn
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ih8sn.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/ih8sn.conf
+
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
