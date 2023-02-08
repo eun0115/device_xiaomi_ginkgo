@@ -75,6 +75,9 @@ void vendor_load_properties()
     // set maintainer flag 
     property_override("ro.rice.maintainer", "_.rasend | eun0115");
 
+    // set chipset flag 
+    property_override("ro.rice.chipset", "Snapdragon 665");
+
     // Set dalvik heap configuration
     string heapstartsize, heapgrowthlimit, heapsize, heapminfree,
 			heapmaxfree, heaptargetutilization;
