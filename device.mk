@@ -239,13 +239,6 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
-# ih8sn
-PRODUCT_PACKAGES += \
-    ih8sn
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ih8sn.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/ih8sn.conf
-
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
@@ -338,7 +331,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
-    Tag
+    com.nxp.nfc.nq \
+    NQNfcNci \
+    Tag \
+    vendor.nxp.hardware.nfc@2.0-service
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
