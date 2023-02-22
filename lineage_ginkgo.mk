@@ -42,10 +42,8 @@ USE_LEGACY_BOOTANIMATION:=true
 WITH_GMS := true
 TARGET_GAPPS_ARCH := arm64
 
-# Aperture Camera
+# Camera
 TARGET_BUILD_APERTURE_CAMERA := false
-
-# Graphene Camera
 TARGET_BUILD_GRAPHENEOS_CAMERA := false
 
 # AudioFx

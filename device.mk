@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
 PRODUCT_VENDOR_PROPERTIES += \
+    persist.sys.vendor.camera_override_id=20 \
     persist.vendor.camera.preview.ubwc=0 \
     persist.vendor.camera.isp.clock.optmz=0 \
     persist.vendor.camera.isp.turbo=1 \
