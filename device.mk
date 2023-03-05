@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Vendor blobs
 $(call inherit-product, vendor/xiaomi/ginkgo/ginkgo-vendor.mk)
 
+# Vendor extra
+$(call inherit-product, vendor/extra/product.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
